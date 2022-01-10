@@ -16,5 +16,7 @@ Data manpulation and cleaning of review text by removal of punctuation, casing, 
 Word Embedding is an approach used to provide a dense vector representation of words that capture some context words about their own. These are improved versions of simple Bag of Words models like word counts and frequency counts. Vector Space representation of words provides a projection where words of similar semantics are clustered together within the space.
 
 ![Vector space embed](https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/07/03000751/we1.png)
+
+Embeddings can be downloaded from https://nlp.stanford.edu/projects/glove/
 # Model - Keras 
 LSTM Recurrent Neural Network , Embedding layer Pre-Initialized with weight matrix created from Stanford's GloVe Word Embeddings. Model was trained using google colab with TPU hardware acceleration
